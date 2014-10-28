@@ -14,7 +14,7 @@
 			<arg value="-w2" />
 			<arg value="-o" />
 			<arg value="${build.dir}/${prg.name}" />
-			<arg value="${src.name}" />
+			<arg value="${src.dir}/${src.name}" />
 		</exec>
 	</target>
 	

@@ -1,4 +1,7 @@
 build.dir=build
-src.name=keyboard64.bas
 prg.name=keyboard64.prg
+
+src.dir=src
+src.name=keyboard64.bas
+
 vice.dir=c:/program files/vice
