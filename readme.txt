@@ -5,10 +5,10 @@ This program emulates a digital music keyboard for the Commodore 64 Personal Com
 You can play notes by using your computer keyboard; the mapping between the musical keyboard and the computer keys is displayed on the screen.
 
 When the program is started, it asks you to choose the concert pitch (default A=440 Hz) and one out of 4 kinds of temperament:
-- Meantone 1/4 comma 
-- Kirnberger III
-- Werckmeister I (III)
-- Equal (obviously)
+* Meantone 1/4 comma 
+* Kirnberger III
+* Werckmeister I (III)
+* Equal (obviously)
 
 While the program is running, you can switch between the octaves by using function keys F1, F2, F3 & F4, and choose waveform using F5, F6, F7 & F8 (the latter being a near-useless "white noise"). You can also adjust the sustain effect using the cursor keys (left/down).
 
