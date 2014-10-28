@@ -25,15 +25,14 @@
   950 poke 53272, 23: rem minuscolo
   999 rem schermo configurato.
  1000 rem stampa dell'interfaccia
- 1010 s$ = chr$(221): rem carattere grafico "pipe"
  1020 print " ******* Pianoforte elettronico ******* "
- 1040 print "{rvon}{CBM-K} {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rght} "
- 1050 print"{up}{rvon}{CBM-K} {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rvof}D{rvon} "
- 1100 print"{up}{rvon}{CBM-K} {rvof}S{rvon} {rvof}D{rvon} "s$" {rvof}G{rvon} {rvof}H{rvon} {rvof}J{rvon} "s$" {rvof}2{rvon} {rvof}3{rvon} "s$" {rvof}5{rvon} {rvof}6{rvon} {rvof}7{rvon} "s$" {rvof}9{rvon} {rvof}0{rvon} "s$" {rvof}-{rvon} {rvof}e{rvon} "
- 1200 print"{up}{rvon}{CBM-K} {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rvof}L{rvon} {rvof}:{rvon} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rvof}l{rvon} "
- 1300 print"{up}{rvon}{CBM-K} "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$"R"
- 1350 print"{up}{rvon}{CBM-K}Z"s$"X"s$"C"s$"V"s$"B"s$"N"s$"M"s$"Q"s$"W"s$"E"s$"R"s$"T"s$"Y"s$"U"s$"I"s$"O"s$"P"s$"@"s$"*"s$"e"
- 1400 print"{up}{rvon}{CBM-K} "s$" "s$" "s$" "s$" "s$" "s$" "s$","s$"."s$"/"s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$" "s$"t"
+ 1040 print "{rvon}{CBM-K} {rght} {rght} {SHIFT--} {rght} {rght} {rght} {SHIFT--} {rght} {rght} {SHIFT--} {rght} {rght} {rght} {SHIFT--} {rght} {rght} {SHIFT--} {rght} {rght} "
+ 1050 print"{up}{rvon}{CBM-K} {rght} {rght} {SHIFT--} {rght} {rght} {rght} {SHIFT--} {rght} {rght} {SHIFT--} {rght} {rght} {rght} {SHIFT--} {rght} {rght} {SHIFT--} {rght} {rvof}D{rvon} "
+ 1100 print"{up}{rvon}{CBM-K} {rvof}S{rvon} {rvof}D{rvon} {SHIFT--} {rvof}G{rvon} {rvof}H{rvon} {rvof}J{rvon} {SHIFT--} {rvof}2{rvon} {rvof}3{rvon} {SHIFT--} {rvof}5{rvon} {rvof}6{rvon} {rvof}7{rvon} {SHIFT--} {rvof}9{rvon} {rvof}0{rvon} {SHIFT--} {rvof}-{rvon} {rvof}e{rvon} "
+ 1200 print"{up}{rvon}{CBM-K} {rght} {rght} {SHIFT--} {rght} {rght} {rght} {SHIFT--} {rvof}L{rvon} {rvof}:{rvon} {SHIFT--} {rght} {rght} {rght} {SHIFT--} {rght} {rght} {SHIFT--} {rght} {rvof}l{rvon} "
+ 1300 print"{up}{rvon}{CBM-K} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--}R"
+ 1350 print"{up}{rvon}{CBM-K}Z{SHIFT--}X{SHIFT--}C{SHIFT--}V{SHIFT--}B{SHIFT--}N{SHIFT--}M{SHIFT--}Q{SHIFT--}W{SHIFT--}E{SHIFT--}R{SHIFT--}T{SHIFT--}Y{SHIFT--}U{SHIFT--}I{SHIFT--}O{SHIFT--}P{SHIFT--}@{SHIFT--}*{SHIFT--}e"
+ 1400 print"{up}{rvon}{CBM-K} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--},{SHIFT--}.{SHIFT--}/{SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--} {SHIFT--}t"
  1405 print
  1407 print"Selezionare il temperamento desiderato:": print
  1410 print"(M)esotonico 1/4 c.",
