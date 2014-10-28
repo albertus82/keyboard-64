@@ -25,7 +25,7 @@
   950 poke 53272, 23: rem minuscolo
   999 rem schermo configurato.
  1000 rem stampa dell'interfaccia
- 1010 s$ = chr$(221)
+ 1010 s$ = chr$(221): rem carattere grafico "pipe"
  1020 print " ******* Pianoforte elettronico ******* "
  1040 print "{rvon}{CBM-K} {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rght} "
  1050 print"{up}{rvon}{CBM-K} {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rght} {rght} "s$" {rght} {rght} "s$" {rght} {rvof}D{rvon} "
