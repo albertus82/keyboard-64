@@ -7,7 +7,7 @@
 		<delete dir="${build.dir}" />
 	</target>
 	
-	<target name="translate" depends="clean">
+	<target name="prg" depends="clean">
 		<mkdir dir="${build.dir}" />
 		
 		<exec executable="${vice.dir}/petcat.exe">
@@ -18,7 +18,7 @@
 		</exec>
 	</target>
 	
-	<target name="run" depends="translate">
+	<target name="run" depends="prg">
 		<exec executable="${vice.dir}/x64.exe" spawn="true">
 			<arg value="${build.dir}/${prg.name}" />
 		</exec>
