@@ -1,0 +1,27 @@
+<project name="Keyboard64" default="run">
+	
+	<property file="build.properties" />
+	<property file="build.properties.default" />
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+	</target>
+	
+	<target name="convert" depends="clean">
+		<mkdir dir="${build.dir}" />
+		
+		<exec executable="${vice.dir}/petcat.exe">
+			<arg value="-w2" />
+			<arg value="-o" />
+			<arg value="${build.dir}/${prg.name}" />
+			<arg value="${src.name}" />
+		</exec>
+	</target>
+	
+	<target name="run" depends="convert">
+		<exec executable="${vice.dir}/x64.exe" spawn="true">
+			<arg value="${build.dir}/${prg.name}" />
+		</exec>
+	</target>
+	
+</project>
