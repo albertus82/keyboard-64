@@ -1,5 +1,5 @@
    10 rem **** pianoforte elettronico ****
-  100 si = 13 * 4096 + 1024: rem sid base
+  100 si = 54272: rem sid base
   110 cn = 1022727: rem clock ntsc in hz
   120 cp = 985248 : rem clock pal in hz
   130 z  = 0
