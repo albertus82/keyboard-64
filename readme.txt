@@ -2,10 +2,11 @@ Keyboard64
 ==========
 
 This program emulates a digital music keyboard for the Commodore 64 Personal Computer, which is based on the MOS SID 6581/8580 sound chip. It is freely inspired by a sample program presented in the C64 User's manual.
+
 You can play notes by using your computer keyboard; the mapping between the musical keyboard and the computer keys is displayed on the screen.
 
-When the program is started, it asks you to choose the concert pitch (default A=440 Hz) and one out of 4 kinds of temperament:
-* Meantone 1/4 comma 
+When you start the program, it asks you to choose the concert pitch (default A=440 Hz) and one out of 4 kinds of temperament:
+* Meantone 1/4 comma
 * Kirnberger III
 * Werckmeister I (III)
 * Equal (obviously)
