@@ -19,7 +19,7 @@
 	</target>
 	
 	<target name="run" depends="prg">
-		<exec executable="${vice.dir}/x64.exe" spawn="true">
+		<exec executable="${vice.dir}/${vice.exec}" spawn="true">
 			<arg value="${build.dir}/${prg.name}" />
 		</exec>
 	</target>

@@ -5,3 +5,4 @@ src.dir=src
 src.name=keyboard64.bas
 
 vice.dir=c:/program files/vice
+vice.exec=x64.exe
