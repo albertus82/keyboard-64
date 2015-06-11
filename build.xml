@@ -1,15 +1,14 @@
 <project name="Keyboard64" default="run">
-	
+
 	<property file="build.properties" />
-	<property file="build.properties.default" />
 
 	<target name="clean">
 		<delete dir="${build.dir}" />
 	</target>
-	
+
 	<target name="prg" depends="clean">
 		<mkdir dir="${build.dir}" />
-		
+
 		<exec executable="${vice.dir}/petcat.exe">
 			<arg value="-w2" />
 			<arg value="-o" />
@@ -17,11 +16,11 @@
 			<arg value="${src.dir}/${src.name}" />
 		</exec>
 	</target>
-	
+
 	<target name="run" depends="prg">
 		<exec executable="${vice.dir}/${vice.exec}" spawn="true">
 			<arg value="${build.dir}/${prg.name}" />
 		</exec>
 	</target>
-	
+
 </project>
