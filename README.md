@@ -13,4 +13,4 @@ When you start the program, it asks you to choose the concert pitch (default A=4
 
 During the execution, you can switch between the octaves by using function keys **`F1`**, **`F2`**, **`F3`** & **`F4`**, and choose waveform using **`F5`**, **`F6`**, **`F7`** &  **`F8`** (the latter being a near-useless "white noise"). You can also adjust the sustain effect using the cursor keys (left/down).
 
-This Eclipse project is set up to use [**VICE**](http://vice-emu.sourceforge.net) (the Versatile Commodore Emulator), so if you want to use the Ant [`build.xml`](build.xml), you have to create a build.properties file and set **`vice.dir`** and **`vice.exec`** properties according to your VICE installation.
+This Eclipse project is set up to use [**VICE**](http://vice-emu.sourceforge.net) (the Versatile Commodore Emulator), so if you want to use the Ant [`build.xml`](build.xml), you have to edit the [`build.properties`](build.properties) file and set **`vice.dir`** and **`vice.exec`** properties according to your VICE installation.
