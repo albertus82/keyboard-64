@@ -1,5 +1,7 @@
 <project name="Keyboard64" default="run">
 
+	<property environment="env" />
+
 	<property file="build.properties" />
 
 	<target name="clean">
